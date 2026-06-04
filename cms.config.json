@@ -1,0 +1,23 @@
+{
+  "version": "1",
+  "schemaVersion": 1,
+  "projectName": "My Blog",
+  "site": { "url": "" },
+  "media": { "folder": "public/uploads" },
+  "collections": [
+    {
+      "name": "posts",
+      "label": "Posts",
+      "folder": "content/posts",
+      "format": "json",
+      "slugField": "title",
+      "fields": [
+        { "name": "title", "label": "Title", "type": "text", "required": true },
+        { "name": "excerpt", "label": "Excerpt", "type": "text" },
+        { "name": "body", "label": "Body", "type": "richtext" },
+        { "name": "coverImage", "label": "Cover image", "type": "image" },
+        { "name": "publishedAt", "label": "Published", "type": "datetime", "required": true }
+      ]
+    }
+  ]
+}
