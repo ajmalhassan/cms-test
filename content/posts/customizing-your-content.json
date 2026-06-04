@@ -1,0 +1,9 @@
+{
+  "_id": "customizing-your-content",
+  "_createdAt": "2026-01-02T00:00:00.000Z",
+  "_updatedAt": "2026-01-02T00:00:00.000Z",
+  "title": "Customizing your content",
+  "excerpt": "Add fields, collections, and singletons in the schema builder.",
+  "body": "<p>Open the LumoCMS dashboard, then click <strong>Advanced → Schema</strong>. You can add new fields to posts, create new collections, or define singletons for site-wide content like a hero section.</p>",
+  "publishedAt": "2026-01-02T00:00:00.000Z"
+}

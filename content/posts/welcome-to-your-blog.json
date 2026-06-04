@@ -1,0 +1,9 @@
+{
+  "_id": "welcome-to-your-blog",
+  "_createdAt": "2026-01-01T00:00:00.000Z",
+  "_updatedAt": "2026-01-01T00:00:00.000Z",
+  "title": "Welcome to your blog",
+  "excerpt": "This is your first post. Edit it from the LumoCMS dashboard.",
+  "body": "<p>Hello! This post lives in <code>content/posts/welcome-to-your-blog.json</code>. Edit it through the LumoCMS dashboard — your changes will commit to this repo and re-deploy your site automatically.</p>",
+  "publishedAt": "2026-01-01T00:00:00.000Z"
+}

@@ -1,0 +1,9 @@
+{
+  "_id": "going-live",
+  "_createdAt": "2026-01-03T00:00:00.000Z",
+  "_updatedAt": "2026-01-03T00:00:00.000Z",
+  "title": "Going live",
+  "excerpt": "Click the Deploy button in the README to push to Vercel in one click.",
+  "body": "<p>Open this repo on GitHub and click the <strong>Deploy to Vercel</strong> button in the README. Vercel will build and host your site. Paste the deployed URL back into the LumoCMS dashboard under Settings → Site URL to enable the publishing status indicator.</p>",
+  "publishedAt": "2026-01-03T00:00:00.000Z"
+}
