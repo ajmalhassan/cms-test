@@ -1,0 +1,10 @@
+{
+  "_id": "mo9w4zwo",
+  "_createdAt": "2026-06-04T19:58:32.088Z",
+  "_updatedAt": "2026-06-04T19:58:32.088Z",
+  "published_date": null,
+  "title": "Simple JS tricks to remove duplicates from an array",
+  "cover_image": null,
+  "body": "```javascript\n// Using Set to remove duplicates\nconst arrayWithDuplicates = [1, 2, 2, 3, 4, 4, 5];\nconst uniqueArrayUsingSet = [...new Set(arrayWithDuplicates)];\nconsole.log(uniqueArrayUsingSet); // Output: [1, 2, 3, 4, 5]\n\n// Using filter and indexOf to remove duplicates\nconst uniqueArrayUsingFilter = arrayWithDuplicates.filter((item, index) => {\n  return arrayWithDuplicates.indexOf(item) === index;\n});\nconsole.log(uniqueArrayUsingFilter); // Output: [1, 2, 3, 4, 5]\n\n// Using reduce to remove duplicates\nconst uniqueArrayUsingReduce = arrayWithDuplicates.reduce((accumulator, current) => {\n  if (!accumulator.includes(current)) {\n    accumulator.push(current);\n  }\n  return accumulator;\n}, []);\nconsole.log(uniqueArrayUsingReduce); // Output: [1, 2, 3, 4, 5]\n```\n\nThese are a few simple JavaScript tricks to effectively remove duplicate elements from an array. Each method offers a different approach, allowing you to choose the one that best fits your coding style and performance needs.",
+  "excerpt": ""
+}
