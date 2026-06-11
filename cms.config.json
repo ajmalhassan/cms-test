@@ -62,6 +62,12 @@
           "name": "description",
           "label": "Description",
           "type": "text"
+        },
+        {
+          "name": "tags",
+          "label": "Tags",
+          "type": "list",
+          "itemType": "text"
         }
       ]
     }
