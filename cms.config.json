@@ -2,8 +2,12 @@
   "version": "1",
   "schemaVersion": 1,
   "projectName": "My Blog",
-  "site": { "url": "" },
-  "media": { "folder": "public/uploads" },
+  "site": {
+    "url": ""
+  },
+  "media": {
+    "folder": "public/uploads"
+  },
   "collections": [
     {
       "name": "posts",
@@ -12,11 +16,53 @@
       "format": "json",
       "slugField": "title",
       "fields": [
-        { "name": "title", "label": "Title", "type": "text", "required": true },
-        { "name": "excerpt", "label": "Excerpt", "type": "text" },
-        { "name": "body", "label": "Body", "type": "richtext" },
-        { "name": "coverImage", "label": "Cover image", "type": "image" },
-        { "name": "publishedAt", "label": "Published", "type": "datetime", "required": true }
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "excerpt",
+          "label": "Excerpt",
+          "type": "text"
+        },
+        {
+          "name": "body",
+          "label": "Body",
+          "type": "richtext"
+        },
+        {
+          "name": "coverImage",
+          "label": "Cover image",
+          "type": "image"
+        },
+        {
+          "name": "publishedAt",
+          "label": "Published",
+          "type": "datetime",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "hero",
+      "label": "Hero",
+      "folder": "content/hero",
+      "format": "json",
+      "singleton": true,
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "description",
+          "label": "Description",
+          "type": "text"
+        }
       ]
     }
   ]
